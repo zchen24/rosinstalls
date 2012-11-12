@@ -1,0 +1,7 @@
+git: {local-name: terse_roscpp, uri: https://github.com/lcsr/terse_roscpp.git}
+git: {local-name: controllerman, uri: https://github.com/lcsr/controllerman.git}
+git: {local-name: cartesian_trajectory_msgs, uri: https://github.com/lcsr/cartesian_trajectory_msgs.git}
+git: {local-name: lcsr_telemanip, uri: https://github.com/lcsr/lcsr_telemanip.git}
+git: {local-name: lcsr_ros_orocos_tools, uri: https://github.com/lcsr/lcsr_ros_orocos_tools.git}
+git: {local-name: rosbuild_xenomai, uri: https://github.com/lcsr/rosbuild_xenomai.git}
+
