@@ -4,22 +4,24 @@ These rosinstall files are meant to be used in the directory _outside_ of
 multiple Catkin isolated and non-isolated workspaces. These can be considered
 "meta-workspaces" since they all create the structure for one or more workspaces.
 
-They are meant to create the following structure:
+They are meant to create the following structure relative to the path for which
+you call `wstool init`:
 
 ```
 .
 ├── underlay
-│   ├── build
-│   ├── devel
-│   └── src
-├── underlay_isolated
-│   ├── build_isolated
-│   ├── devel_isolated
-│   ├── install_isolated
-│   └── src
+│   ├── build
+│   ├── devel
+│   └── src
+└── underlay_isolated
+    ├── build_isolated
+    ├── devel_isolated
+    ├── install_isolated
+    └── src
 ```
 
-Once loading this meta-workspace, build it in the following manner:
+Once loading this meta-workspace, build it in the following manner
+(this will create a pair of chained workspaces):
 
 ```sh
 unset CMAKE_PREFIX_PATH
