@@ -1,44 +1,10 @@
 ## Application-Specific rosinstall Files
 
-These rosinstall files are meant to be used in the directory _outside_ of 
-multiple Catkin isolated and non-isolated workspaces. These can be considered
-"meta-workspaces" since they all create the structure for one or more workspaces.
+These rosinstall files will add packages to both `underlay` and
+`underlay_isolated` catkin subspaces in your wstool workspace which
+are needed for a whole application.
 
-They are meant to create the following structure relative to the path for which
-you call `wstool init`:
-
-```
-.
-├── underlay
-│   ├── build
-│   ├── devel
-│   └── src
-└── underlay_isolated
-    ├── build_isolated
-    ├── devel_isolated
-    ├── install_isolated
-    └── src
-```
-
-Once loading this meta-workspace, build it in the following manner
-(this will create a pair of chained workspaces):
-
-```sh
-unset CMAKE_PREFIX_PATH
-source /opt/ros/$ROS_DISTRO/setup.sh
-cd underlay_isolated
-catkin_make_isolated --install
-source install_isolated/setup.sh
-cd ../underlay
-catkin_make
-source devel/setup.sh
-```
-
-To load them them into your meta-workspace:
-
-```bash
-curl https://raw.github.com/jhu-lcsr/rosinstalls/master/catkin/FILE.rosinstall | wstool merge -
-```
+See [the main readme](../README.md) for more info.
 
 ### Workspaces
 
