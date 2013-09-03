@@ -1,3 +1,0 @@
-- git: {local-name: barrett, uri: 'git@github.com:jhu-lcsr-forks/barrett.git'}
-- git: {local-name: orocos/orocos_kinematics_dynamics, uri: 'git@github.com:jhu-lcsr-forks/orocos_kinematics_dynamics.git'}
-- git: {local-name: orocos/orocos_toolchain, uri: 'git@github.com:jhu-lcsr-forks/orocos_toolchain.git'}
