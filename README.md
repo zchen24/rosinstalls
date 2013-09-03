@@ -6,8 +6,11 @@ A collection of rosinstall files for quickly downloading LCSR ROS packages.
 ### Conventions
 
 These rosinstall files assume that you're using wstool to manage ***multiple***
-Catkin buildspaces. In other words, your wstool workspace contains a structure
-like the following (multiple Catkin workspaces):
+Catkin workspaces (subspaces): one for normal catkin packages, called `underlay`
+and one for pure-CMake packages which provide package.xml files, called
+`underlay_isolated`. 
+
+In other words, your wstool workspace contains a structure like the following:
 
 ```
 .
@@ -23,7 +26,7 @@ like the following (multiple Catkin workspaces):
 ```
 
 Once creating this workspace, you can build it in the following manner
-(this will create a pair of chained workspaces):
+(this will create a pair of chained Catkin subspaces):
 
 ```sh
 unset CMAKE_PREFIX_PATH
