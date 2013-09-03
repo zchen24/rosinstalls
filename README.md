@@ -12,7 +12,10 @@ and one for pure-CMake packages which provide package.xml files, called
 
 In other words, your wstool workspace contains a structure like the following:
 
+```sh
+tree -L 2
 ```
+```sh
 .
 ├── underlay
 │   ├── build
