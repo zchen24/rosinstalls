@@ -1,0 +1,2 @@
+- git: {local-name: underlay/src/ros/actionlib, uri: 'git@github.com:jhu-lcsr-forks/actionlib.git', version: patched}
+- git: {local-name: underlay/src/ros/dynamic_reconfigure, uri: 'git@github.com:jhu-lcsr-forks/dynamic_reconfigure.git', version: patched}
