@@ -1,12 +1,9 @@
 ## Catkin Workspace rosinstall Files
 
-These rosinstall files are meant to be used in normal catkin underlays.
+These rosinstall files will add packages to the `underlay` catkin subspace
+in your wstool workspace.
 
-To load them them into your workspace:
-
-```bash
-curl https://raw.github.com/jhu-lcsr/rosinstalls/master/catkin/FILE.rosinstall | wstool merge -
-```
+See [the main readme](../README.md) for more info.
 
 ### Workspaces
 
