@@ -1,0 +1,1 @@
+- git: {local-name: orocos/rtt_gazebo, uri: 'git@github.com:jhu-lcsr/rtt_gazebo.git'}
