@@ -11,5 +11,5 @@ curl https://raw.github.com/jhu-lcsr/rosinstalls/master/isolated/FILE.rosinstall
 
 ### Workspaces
 
-* [*barrett.rosinstall*](barrett.rosinstall) - For running hardware from Barrett Technologies
-* [*orocos.rosinstall*](orocos.rosinstall) - For building the [orocos toolchain](orocos.org) from source
+* [*barrett.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/isolated/barrett.rosinstall) - For running hardware from Barrett Technologies
+* [*orocos.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/isolated/orocos.rosinstall) - For building the [orocos toolchain](orocos.org) from source
