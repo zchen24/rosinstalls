@@ -13,3 +13,5 @@
 - git: {local-name: underlay/src/rtt_barrett, uri: 'git@github.com:jhu-lcsr/rtt_barrett.git'}
 - git: {local-name: underlay/src/barrett_model, uri: 'git@github.com:jhu-lcsr/barrett_model.git'}
 - git: {local-name: underlay/src/lcsr_robot_models, uri: 'git@github.com:jhu-lcsr/lcsr_robot_models.git'}
+- git: {local-name: underlay/src/ros/actionlib, uri: 'git@github.com:jhu-lcsr-forks/actionlib.git', version: patched}
+- git: {local-name: underlay/src/ros/dynamic_reconfigure, uri: 'git@github.com:jhu-lcsr-forks/dynamic_reconfigure.git', version: patched}
