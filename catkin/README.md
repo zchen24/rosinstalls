@@ -10,5 +10,5 @@ curl https://raw.github.com/jhu-lcsr/rosinstalls/master/catkin/FILE.rosinstall |
 
 ### Workspaces
 
-* [*orocos_ros.rosinstall*](orocos_ros.rosinstall) - Orocos-ROS Integration packages 
-* [*orocos_gazebo.rosinstall*](orocos_gazebo.rosinstall) - Orocos-Gazebo Integration packages 
+* [*orocos_ros.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/catkin/orocos_ros.rosinstall) - Orocos-ROS Integration packages 
+* [*orocos_gazebo.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/catkin/orocos_gazebo.rosinstall) - Orocos-Gazebo Integration packages 
