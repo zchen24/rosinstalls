@@ -29,7 +29,7 @@ source /opt/ros/$ROS_DISTRO/setup.sh
 cd underlay_isolated
 catkin_make_isolated --install
 source install_isolated/setup.sh
-cd underlay
+cd ../underlay
 catkin_make
 source devel/setup.sh
 ```
