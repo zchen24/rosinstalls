@@ -45,8 +45,10 @@ source devel/setup.sh
 To load any rosinstall files from this repository into your workspace:
 
 ```bash
-curl https://raw.github.com/jhu-lcsr/rosinstalls/master/FILE.rosinstall | wstool merge -
+curl https://raw.github.com/jhu-lcsr/rosinstalls/master/SECTION/FILE.rosinstall | wstool merge -
 ```
+
+The RAW links can be found conveniently in the `README.md` files in each secion, listed below.
 
 ### Sections
 
