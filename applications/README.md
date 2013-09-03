@@ -42,4 +42,4 @@ curl https://raw.github.com/jhu-lcsr/rosinstalls/master/catkin/FILE.rosinstall |
 
 ### Workspaces
 
-* [*lcsr_wam.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/applications/orocos_barrett.rosinstall) - Orocos-libbarrett integration packages 
+* [*lcsr_wam.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/applications/lcsr_wam.rosinstall) - All the packages needed to build the LCSR Barrett WAM set-up 
