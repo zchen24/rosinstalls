@@ -1,2 +1,2 @@
-- git: {local-name: underlay/src/barrett/rtt_barrett, uri: 'git@github.com:jhu-lcsr/rtt_barrett.git'}
+- git: {local-name: underlay/src/barrett/orocos_barrett, uri: 'git@github.com:jhu-lcsr/orocos_barrett.git'}
 - git: {local-name: underlay/src/barrett/barrett_model, uri: 'git@github.com:jhu-lcsr/barrett_model.git'}
