@@ -10,7 +10,7 @@
 - git: {local-name: underlay/src/orocos/rtt_common_msgs, uri: 'git@github.com:jhu-lcsr-forks/rtt_common_msgs.git'}
 - git: {local-name: underlay/src/orocos/rtt_geometry, uri: 'git@github.com:jhu-lcsr-forks/rtt_geometry.git'}
 - git: {local-name: underlay/src/orocos/rtt_gazebo, uri: 'git@github.com:jhu-lcsr/rtt_gazebo.git'}
-- git: {local-name: underlay/src/rtt_barrett, uri: 'git@github.com:jhu-lcsr/rtt_barrett.git'}
+- git: {local-name: underlay/src/orocos_barrett, uri: 'git@github.com:jhu-lcsr/orocos_barrett.git'}
 - git: {local-name: underlay/src/barrett_model, uri: 'git@github.com:jhu-lcsr/barrett_model.git'}
 - git: {local-name: underlay/src/lcsr_robot_models, uri: 'git@github.com:jhu-lcsr/lcsr_robot_models.git'}
 - git: {local-name: underlay/src/ros/actionlib, uri: 'git@github.com:jhu-lcsr-forks/actionlib.git', version: patched}
