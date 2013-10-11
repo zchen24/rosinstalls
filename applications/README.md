@@ -9,3 +9,4 @@ See [the main readme](../README.md) for more info.
 ### Workspaces
 
 * [*lcsr_wam.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/applications/lcsr_wam.rosinstall) - All the packages needed to build the LCSR Barrett WAM set-up 
+* [*lcsr_phantom.rosinstall*](https://raw.github.com/jhu-lcsr/rosinstalls/master/applications/lcsr_phantom.rosinstall) - All the packages needed to build the LCSR PHANToM set-up 
