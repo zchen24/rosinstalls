@@ -2,6 +2,10 @@
 - git: {local-name: underlay_isolated/src/orocos/orocos_kinematics_dynamics, uri: 'git@github.com:jhu-lcsr-forks/orocos_kinematics_dynamics.git'}
 - git: {local-name: underlay_isolated/src/orocos/orocos_toolchain, uri: 'git@github.com:jhu-lcsr-forks/orocos_toolchain.git'}
 - git: {local-name: underlay_isolated/src/barrett, uri: 'git@github.com:jhu-lcsr-forks/barrett.git'}
+- git: {local-name: underlay_isolated/src/ros/geometry, uri: 'git@github.com:ros/geometry.git'}
+- git: {local-name: underlay_isolated/src/ros/geometry_experimental, uri: 'git@github.com:ros/geometry_experimental.git'}
+- git: {local-name: underlay_isolated/src/ros/actionlib, uri: 'git@github.com:jhu-lcsr-forks/actionlib.git', version: patched}
+- git: {local-name: underlay_isolated/src/ros/dynamic_reconfigure, uri: 'git@github.com:jhu-lcsr-forks/dynamic_reconfigure.git', version: patched}
 # Normal Workspace
 - git: {local-name: underlay/src/ros/cmake_modules, uri: 'git@github.com:jhu-lcsr-forks/cmake_modules.git'}
 - git: {local-name: underlay/src/orocos/rtt_ros_integration, uri: 'git@github.com:jhu-lcsr-forks/rtt_ros_integration.git'}
@@ -13,5 +17,3 @@
 - git: {local-name: underlay/src/orocos_barrett, uri: 'git@github.com:jhu-lcsr/orocos_barrett.git'}
 - git: {local-name: underlay/src/barrett_model, uri: 'git@github.com:jhu-lcsr/barrett_model.git'}
 - git: {local-name: underlay/src/lcsr_robot_models, uri: 'git@github.com:jhu-lcsr/lcsr_robot_models.git'}
-- git: {local-name: underlay/src/ros/actionlib, uri: 'git@github.com:jhu-lcsr-forks/actionlib.git', version: patched}
-- git: {local-name: underlay/src/ros/dynamic_reconfigure, uri: 'git@github.com:jhu-lcsr-forks/dynamic_reconfigure.git', version: patched}
