@@ -7,7 +7,7 @@
 - git: {local-name: underlay_isolated/src/ros/geometry_experimental, uri: 'git@github.com:ros/geometry_experimental.git'}
 # Normal Workspace
 - git: {local-name: underlay/src/lcsr_ros_orocos_tools, uri: 'git@github.com:jhu-lcsr/lcsr_ros_orocos_tools.git'}
-- git: {local-name: underlay/src/rtt_ros_control, uri: 'git@github.com:jhu-lcsr-forks/rtt_ros_control.git'}
+- git: {local-name: underlay/src/rtt_ros_control, uri: 'git@github.com:jhu-lcsr/rtt_ros_control.git'}
 - git: {local-name: underlay/src/orocos/rtt_ros_integration, uri: 'git@github.com:jhu-lcsr-forks/rtt_ros_integration.git'}
 - git: {local-name: underlay/src/orocos/rtt_ros_examples, uri: 'git@github.com:jhu-lcsr/rtt_ros_examples.git'}
 - git: {local-name: underlay/src/orocos/rtt_gazebo, uri: 'git@github.com:jhu-lcsr/rtt_gazebo.git'}
