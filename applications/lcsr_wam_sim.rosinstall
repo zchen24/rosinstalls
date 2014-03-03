@@ -2,9 +2,6 @@
 - git: {local-name: underlay_isolated/src/orocos/orocos_kinematics_dynamics, uri: 'git@github.com:jhu-lcsr-forks/orocos_kinematics_dynamics.git'}
 - git: {local-name: underlay_isolated/src/orocos/rtt_geometry, uri: 'git@github.com:jhu-lcsr-forks/rtt_geometry.git'}
 - git: {local-name: underlay_isolated/src/orocos/orocos_toolchain, uri: 'git@github.com:jhu-lcsr-forks/orocos_toolchain.git'}
-- git: {local-name: underlay_isolated/src/ros/cmake_modules, uri: 'git@github.com:jhu-lcsr-forks/cmake_modules.git'}
-- git: {local-name: underlay_isolated/src/ros/geometry, uri: 'git@github.com:ros/geometry.git'}
-- git: {local-name: underlay_isolated/src/ros/geometry_experimental, uri: 'git@github.com:ros/geometry_experimental.git'}
 # Normal Workspace
 - git: {local-name: underlay/src/lcsr_ros_orocos_tools, uri: 'git@github.com:jhu-lcsr/lcsr_ros_orocos_tools.git'}
 - git: {local-name: underlay/src/rtt_ros_control, uri: 'git@github.com:jhu-lcsr/rtt_ros_control.git'}
